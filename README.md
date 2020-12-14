@@ -1,6 +1,8 @@
 # evaluation_ucas
 a tool to help you evaluate course or teacher
 
+中国科学院大学(国科大)自动评教脚本
+
 本工具仅限于交流研究使用，本人不对因为滥用此程序造成的后果负责，请在合理且合法的范围内使用本程序，滥用者后果自负。
 
 
