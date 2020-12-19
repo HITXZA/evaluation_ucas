@@ -1,0 +1,18 @@
+var str1 = "上课讲的非常好                      "
+var str2 = "已经非常好了。                       "
+var str3 = "1-2小时                                 "
+var str4 = "对这个学科很有兴趣的，通过学习有很大收获"
+var str5 = "出勤全勤，上课认真听讲，回答老师问题"
+for(var i =0; i<360; i++) { 
+    if($("input[name='item_"+i+"']").length) 
+        $("input[name='item_"+i+"']").get(0).checked=true; 
+}
+$("input[id='249']").get(0).click()
+$("input[id='255']").get(0).checked = true
+$("textarea[id='item_243']").text(str1)
+$("textarea[id='item_244']").text(str2)
+$("textarea[id='item_245']").text(str3)
+$("textarea[id='item_246']").text(str4)
+$("textarea[id='item_247']").text(str5)
+$("form").submit()
+$("button[value='ok']").click()
